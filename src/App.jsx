@@ -1,3 +1,9 @@
+import { Button, makeStyles } from "@material-ui/core";
+import { Person } from "@material-ui/icons";
+
+const useStyles = makeStyles((theme) => ({}));
+
 export default function App() {
-  return <div>Hello World!</div>;
+  const classes = useStyles();
+  return <div></div>;
 }
